@@ -1,0 +1,106 @@
+REPORT DESCRIPTION
+
+1. INTRODUCTION
+
+The Cricket Score Calculator is a console-based application developed using
+Python. The main purpose of the application is to make basic cricket scoring
+easier by automatically calculating the score from ball-by-ball input.
+
+2. OBJECTIVE
+
+The objective of this project is to develop a simple, user-friendly Python
+program that can calculate cricket runs, wickets, overs, and run rate while
+demonstrating fundamental programming concepts.
+
+3. TECHNOLOGIES USED
+
+Programming Language: Python 3
+Development Environment: Any Python-compatible IDE or terminal
+External Libraries: None
+
+4. WORKING OF THE SYSTEM
+
+First, the program asks the user to enter the team name and the number of
+overs. It then accepts the result of each ball.
+
+The user can enter:
+- 0 for a dot ball
+- 1, 2, or 3 for runs
+- 4 for a boundary
+- 6 for a six
+- W for a wicket
+- WD for a wide
+- NB for a no-ball
+
+The program updates the total score after every valid entry. Legal deliveries
+increase the ball count, while the basic wide and no-ball inputs add one run
+without increasing the legal-ball count.
+
+The innings ends when the selected number of overs is completed or when
+10 wickets have fallen. The final score, overs, wickets, and run rate are then
+displayed.
+
+5. ALGORITHM
+
+Step 1: Start the program.
+Step 2: Read the team name.
+Step 3: Read the number of overs.
+Step 4: Set runs, wickets, and legal balls to zero.
+Step 5: Accept the result of each delivery.
+Step 6: Add runs or wicket according to the input.
+Step 7: Increase the legal-ball count for a legal delivery.
+Step 8: Do not increase the legal-ball count for WD or NB.
+Step 9: Continue until the over limit or 10 wickets are reached.
+Step 10: Calculate completed overs and run rate.
+Step 11: Display the final score.
+Step 12: Stop the program.
+
+6. FORMULAS
+
+Total Score = Sum of all valid runs and basic extras.
+
+Overs = Legal Balls // 6 + remaining legal balls.
+
+Run Rate = Total Runs / Overs in decimal form.
+
+7. INPUT
+
+The program takes team name, over limit, and ball-by-ball results as input.
+
+8. OUTPUT
+
+The program displays:
+- Team name
+- Total runs
+- Total wickets
+- Overs completed
+- Run rate
+- End-of-innings status
+
+9. ADVANTAGES
+
+- Simple and easy to use.
+- Reduces manual calculation.
+- Demonstrates practical use of Python.
+- Uses input validation to reduce incorrect entries.
+- Requires no external libraries.
+
+10. LIMITATIONS
+
+The project is a basic educational scorer. It does not implement all detailed
+laws and scoring situations in cricket. It does not maintain individual
+batter and bowler scorecards.
+
+11. FUTURE ENHANCEMENTS
+
+Future versions can include a graphical user interface, player-wise scores,
+bowler statistics, complete extras, target calculation, required run rate,
+match result calculation, scorecard storage, and database integration.
+
+12. CONCLUSION
+
+The Cricket Score Calculator successfully demonstrates how Python can be used
+to solve a practical problem. The project uses functions, loops, conditions,
+exception handling, and arithmetic calculations to create a simple scoring
+system. It provides a good foundation for developing a more advanced cricket
+scorekeeping application.

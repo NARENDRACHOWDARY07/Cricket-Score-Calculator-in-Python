@@ -1,0 +1,30 @@
+PROJECT STATEMENT
+
+Project Title:
+Cricket Score Calculator in Python
+
+Problem Statement:
+Keeping track of a cricket score manually during an innings can be time
+consuming and may lead to calculation errors. The purpose of this project is
+to develop a simple Python program that records ball-by-ball results and
+automatically calculates the total runs, wickets, overs, and run rate.
+
+Objectives:
+1. To create a simple cricket scoring application using Python.
+2. To accept ball-by-ball input from the user.
+3. To calculate total runs and wickets automatically.
+4. To calculate the number of completed overs.
+5. To calculate the run rate.
+6. To demonstrate the use of basic Python programming concepts.
+7. To provide clear and easy-to-understand output.
+
+Scope:
+The project is intended as a basic educational cricket scoring system.
+It focuses on calculating the main score of one innings. It can be extended
+later with player statistics, complete extras handling, match targets, and
+a graphical user interface.
+
+Expected Outcome:
+After entering the ball-by-ball results, the program displays a final
+scorecard containing the team name, total score, wickets, overs, run rate,
+and the reason for the end of the innings.
